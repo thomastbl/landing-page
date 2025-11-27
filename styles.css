@@ -212,11 +212,6 @@ div .signup {
     font-size: 18px;
 }
 
-.wrapper > div {
-    flex:0 1 50%;
-    justify-content: space-between;
-}
-
 .button-alt {
     align-self: center;
     font-size: 20px;
