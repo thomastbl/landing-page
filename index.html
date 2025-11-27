@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
 
-    <body class="column">
+    <body class="flex column">
         <div class="header-style">
                 <div class="flex wrapper">
                     <div class="logo">
@@ -58,19 +58,25 @@
                 </div>
             </div>
         <div class="quote-section">
-            <div class="quote"></div>
-            <div class="author"></div>
-        </div>
-        <div class="cta-section">
-            <div class="cta-block">
-                <div class="">
-                    <div>Call to action! It's time!</div>
-                    <div>Sign up for our product by clicking that button riught over there!</div>
+            <div class="wrapper flex">
+                <div class="quote-box flex column">
+                    <div class="quote">Christmas is the spirit of giving without a thought of getting. It is happiness because we see joy in people. It is forgetting self and finding time for others. It’s discarding the meaningless and stressing the true values.</div>
+                    <div class="author">– Thomas S. Monson</div>
                 </div>
-                <div class="">Sign up</div>
             </div>
         </div>
-        <div class="footer-style">
+        <div class="cta-section">
+            <div class="wrapper flex">
+                <div class="cta-box flex">
+                    <div class="left-side-cta flex column">
+                        <div class="cta-title">Call to action! It's time!</div>
+                        <div class="cta-text">Sign up for our product by clicking that button right over there!</div>
+                    </div>
+                    <button class="button-alt">Sign up</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-style flex">
             <div class="footer">Copyright © The Odin Project 2021</div>
         </div>
     </body>
