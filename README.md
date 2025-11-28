@@ -25,7 +25,7 @@ This project allowed me to practice and solidify essential web development conce
 
 ### 🎨 CSS Techniques & Flexbox
 
-* **Flexbox Mastery**: Full use of the Flexbox model for alignment, spacing, and wrapping (`wrap`).
+* **Flexbox Mastery**: Full use of the Flexbox model for alignment, spacing, and wrapping.
 * **CSS Modularity**: Creation of reusable CSS classes (`.flex`, `.column`, `.wrapper`, etc.).
 * **Visual Hierarchy**: Application of a strong visual hierarchy through typography, sizing, and color palettes.
 * **Unified Design**: Consistent management of padding, margin, and borders using `box-sizing: border-box`.
@@ -33,10 +33,9 @@ This project allowed me to practice and solidify essential web development conce
 
 ### 🧩 Best Practices
 
-* **Separation of Concerns**: HTML content distinct from CSS styling.
 * **Version Control**: Use of incremental Git commits for each added feature.
 * **Readability**: Consistent indentation and descriptive class naming.
-* **Debugging**: Temporary use of visual aids (colored borders) for layout inspection.
+* **Debugging**: Temporary use of colored borders for layout inspection.
 
 ---
 
@@ -74,14 +73,6 @@ This optimized:
 ### 🧩 Debugging and Layout Tools
 
 Temporary CSS border utilities were used to visualize the boxes.
-
-### 📱 Responsive Behavior Testing
-
-Tests were performed using the Chrome DevTools mobile emulator (`Cmd + Shift + M`) and manual resizing, which allowed for the validation of:
-* The effect of the `meta viewport` on mobile screens.
-* How Flexbox automatically stacks or wraps elements.
-
----
 
 ## 💡 Design Overview
 
